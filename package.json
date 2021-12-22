@@ -1,53 +1,20 @@
 {
   "name": "docs",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cc-lgtm/kfs-ui-docs.git",
+  "author": "coderC <2448856797@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.29"
+  },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "@fect-ui/vue": "^1.0.5",
-    "core-js": "^3.6.5",
     "kfs-ui": "^0.2.5",
-    "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
-  },
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.18.0",
-    "@typescript-eslint/parser": "^4.18.0",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
-    "typescript": "~4.1.5"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended",
-      "@vue/typescript/recommended"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 2020
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "sass": "^1.45.1",
+    "vuepress-plugin-demoblock-plus": "^1.5.1"
+  }
 }
