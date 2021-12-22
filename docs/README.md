@@ -1,7 +1,5 @@
 ---
 home: true
-actionText: 快速上手 →
-actionLink: /guide/
 features:
 - title: 介绍
   details: 该项目是自己写着玩的，没啥大用。
@@ -17,7 +15,7 @@ npm i kfs-ui
 ```ts
 import { createApp } from 'vue'
 import App from './App.vue'
-import kfs-ui from 'kfs-ui'
+import kfs-ui from 'kfs-ui/lib/index'
 import 'kfs-ui/lib/index.css'
 
 const app = createApp(App)
@@ -29,7 +27,7 @@ app
 
 > 方法
 ```ts
-import Message from 'kfs-ui'
+import Message from 'kfs-ui/lib/index'
 
 Message({
   type: '...',

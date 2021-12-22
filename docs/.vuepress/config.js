@@ -11,7 +11,7 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '组件', link: '/guide/button' },
       { text: 'npm', link: 'https://www.npmjs.com/package/kfs-ui' },
-      { text: 'Github', link: 'https://github.com/cc-lgtm/v3-compoents' }
+      { text: 'Github', link: 'https://github.com/cc-lgtm/kfs-ui' }
     ],
     sidebar: [
       {
@@ -20,6 +20,7 @@ module.exports = {
           { text: '按钮 Button', link: '/guide/button' },
           { text: '卡片 Card', link: '/guide/card' },
           { text: '文字提示 Tips', link: '/guide/tips' },
+          { text: '连接 Link', link: '/guide/link' }
         ]
       },
       {
@@ -28,7 +29,9 @@ module.exports = {
           { text: '输入框 Input', link: '/guide/input' },
           { text: '评分 Rating', link: '/guide/rating' },
           { text: '选择器 Select', link: '/guide/select' },
-          { text: '日历时间选择 DatePicker', link: '/guide/datepicker' }
+          { text: '日历时间选择 DatePicker', link: '/guide/datepicker' },
+          { text: '切换 Switch', link: '/guide/switch' },
+          { text: '单选框 Radio', link: '/guide/radio' }
         ]
       },
       {
