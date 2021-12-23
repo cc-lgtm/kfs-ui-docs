@@ -9,6 +9,7 @@ footer: MIT | cc-lgtm
 > 安装
 ```ts
 npm i kfs-ui
+yarn add kfs-ui
 ```
 
 > 引用
@@ -27,9 +28,9 @@ app
 
 > 方法
 ```ts
-import Message from 'kfs-ui/lib/index'
+import cc-message from 'kfs-ui/lib/index'
 
-Message({
+cc-message({
   type: '...',
   text: '...'
 })

@@ -1,10 +1,10 @@
-# Tips
+# Radio
 #### 默认
 :::demo
 ```vue
 <template>
   <div>
-    <cc-tips tips="this is a tips"></cc-tips>
+    <cc-radio></cc-radio>
   </div>
 </template>
 ```

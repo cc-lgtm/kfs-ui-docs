@@ -1,10 +1,10 @@
-# Tips
+# Drawer
 #### 默认
 :::demo
 ```vue
 <template>
   <div>
-    <cc-tips tips="this is a tips"></cc-tips>
+    <cc-drawer />
   </div>
 </template>
 ```

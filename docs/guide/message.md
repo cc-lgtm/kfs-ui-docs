@@ -1,10 +1,10 @@
-# Tips
+# Message
 #### 默认
 :::demo
 ```vue
 <template>
   <div>
-    <cc-tips tips="this is a tips"></cc-tips>
+    <cc-message></cc-message>
   </div>
 </template>
 ```

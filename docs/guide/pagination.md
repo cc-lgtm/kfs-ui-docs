@@ -1,10 +1,10 @@
-# Tips
+# Pagination
 #### 默认
 :::demo
 ```vue
 <template>
   <div>
-    <cc-tips tips="this is a tips"></cc-tips>
+    <cc-pagination total="100" />
   </div>
 </template>
 ```
