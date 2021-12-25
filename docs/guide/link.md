@@ -30,26 +30,14 @@
 ```vue
 <template>
   <div class="box">
-    <cc-link :underline="underline">link</cc-link>
-    <cc-link type="primary" :underline="underline">link</cc-link>
-    <cc-link type="success" :underline="underline">link</cc-link>
-    <cc-link type="warning" :underline="underline">link</cc-link>
-    <cc-link type="danger" :underline="underline">link</cc-link>
-    <cc-link type="info" :underline="underline">link</cc-link>
+    <cc-link :underline="false">link</cc-link>
+    <cc-link type="primary" :underline="false">link</cc-link>
+    <cc-link type="success" :underline="false">link</cc-link>
+    <cc-link type="warning" :underline="false">link</cc-link>
+    <cc-link type="danger" :underline="false">link</cc-link>
+    <cc-link type="info" :underline="false">link</cc-link>
   </div>
 </template>
-
-<script lang="ts">
-import {ref} from 'vue'
-export default {
-  setup() {
-    const underline = ref<boolean>(false)
-    return {
-      underline
-    }
-  }
-}
-</script>
 
 <style>
 .box {

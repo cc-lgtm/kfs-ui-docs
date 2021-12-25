@@ -998,10 +998,10 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-kfs-ui@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/kfs-ui/-/kfs-ui-0.2.5.tgz#e3324549f8882d549d9303db464edcd860589e3c"
-  integrity sha512-qHB6lBFH2cd2+sVbg/vLzyURmVjLE3FZUPu03qldDGeJV6LroXxa2FFKZ2j2NzZLOJqJ6YBSzH9XECTtulu5Nw==
+kfs-ui@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/kfs-ui/-/kfs-ui-0.3.1.tgz#f668beee062ad28c3c5c312f75665efc0b1748ad"
+  integrity sha512-EV+hsjRKv+32QTr3xc5/lmJurAlJaaxNRniFkP707MYDO8GqVzFtMgNyRYvIbyT+l1jaOCCJ08mEWlrhkdl/Eg==
 
 kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"

@@ -36,20 +36,13 @@
 #### 属性
 | 属性 | 描述 | 类型 | 可选值 | 默认 |
 | ------------- |:-------------:| -----:|:-------------:| -----:|
-| class | 自定义按钮的样式类名 | `string` | `-` | `-`  |
-| type  | 按钮的类型 | `string` | `normal`,`warn`,`error` | `normal` |
-| size | 按钮的尺寸 | `string` | `mini`,`small`,`medium` | `medium` |
-| circle | 是否圆形按钮 | `boolean` | `true`,`false` | `false` |
-| disabled | 是否禁止点击 | `boolean` | `true`,`false` | `false` |
-| isLoading | 是否开启加载 | `boolean` | `true`,`false` | `false` |
-| round | 按钮的圆角 | `number`,`string` | `-` | `0` |
+| value | 初始值 | `boolean` | `true`,`false` | `false`  |
+| size | Switch的尺寸 | `string` | `mini`,`small`,`medium`,`large` | `medium` |
+| disabled | 是否禁用 | `boolean` | `true`,`false` | `false` |
+| checkedValue | 开启的值 | `boolean`,`string`,`number` | `-` | `true` |
+| inactiveValue | 关闭的值 | `boolean`,`string`,`number` | `-` | `false` |
 
 #### 事件
 | 名称 | 描述 | 参数 |
 | ------------- |:-------------:| -----:|
-| click | 按钮点击是触发 | `-` |
-
-#### slots
-| 名称 | 描述 |
-| ------------- |:-------------:|
-| `-` | `Button`内自定义内容 |
+| change | 切换时触发 | `当前值` |

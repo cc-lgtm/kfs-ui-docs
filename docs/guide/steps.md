@@ -4,7 +4,7 @@
 ```vue
 <template>
   <div>
-    <cc-stepbar :active="1">
+    <cc-stepbar :active="1" :space="100">
       <cc-step />
       <cc-step />
       <cc-step />

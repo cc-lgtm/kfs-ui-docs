@@ -1,5 +1,5 @@
 import { defineClientAppEnhance } from '@vuepress/client';
-import KfsUi from 'kfs-ui/lib'
+import KfsUi from 'kfs-ui/lib/index'
 import 'kfs-ui/lib/index.css'
 
 export default defineClientAppEnhance(({

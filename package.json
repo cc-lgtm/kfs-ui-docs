@@ -13,7 +13,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "kfs-ui": "^0.2.5",
+    "kfs-ui": "^0.3.1",
     "sass": "^1.45.1",
     "vuepress-plugin-demoblock-plus": "^1.5.1"
   }

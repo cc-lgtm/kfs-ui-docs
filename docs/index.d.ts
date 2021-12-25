@@ -1,1 +1,1 @@
-declare module 'kfs-ui/lib';
+declare module 'kfs-ui/lib/index';
