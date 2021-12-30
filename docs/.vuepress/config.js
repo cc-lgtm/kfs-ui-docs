@@ -56,6 +56,12 @@ module.exports = {
           { text: '选项卡 Tabs', link: '/guide/tabs' },
           { text: '分页 Pagination', link: '/guide/pagination' }
         ]
+      },
+      {
+        text: '项目通用函数源码',
+        children: [
+          { text: 'utils 源码', link: '/guide/utils' },
+        ]
       }
     ]
   }
