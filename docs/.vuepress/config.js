@@ -9,11 +9,17 @@ module.exports = {
   themeConfig: {
     navbar: [
       { text: '首页', link: '/' },
-      { text: '组件', link: '/guide/button' },
+      { text: '组件', link: '/guide/use' },
       { text: 'npm', link: 'https://www.npmjs.com/package/kfs-ui' },
       { text: 'Github', link: 'https://github.com/cc-lgtm/kfs-ui' }
     ],
     sidebar: [
+      {
+        text: '快速上手',
+        children: [
+          { text: '自定义主题', link: '/guide/use' },
+        ]
+      },
       {
         text: '通用',
         children: [

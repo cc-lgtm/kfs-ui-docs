@@ -5,12 +5,12 @@
 ```vue
 <template>
   <div>
-    <cc-stepbar :active="1" :space="100">
-      <cc-stepitem />
-      <cc-stepitem />
-      <cc-stepitem />
-      <cc-stepitem />
-    </cc-stepbar>
+    <cc-steps :active="1" :space="100">
+      <cc-step />
+      <cc-step />
+      <cc-step />
+      <cc-step />
+    </cc-steps>
   </div>
 </template>
 ```
@@ -21,12 +21,12 @@
 ```vue
 <template>
   <div style="height: 200px">
-    <cc-stepbar :active="2" :space="100">
-      <cc-stepitem title="title1" description="这是一条描述" />
-      <cc-stepitem title="title2" description="这是一条很长描述" />
-      <cc-stepitem title="title3" description="这是一条很长很长描述" />
-      <cc-stepitem title="title4" description="这是一条很长很长很长描述" />
-    </cc-stepbar>
+    <cc-steps :active="2" :space="100">
+      <cc-step title="title1" description="这是一条描述" />
+      <cc-step title="title2" description="这是一条很长描述" />
+      <cc-step title="title3" description="这是一条很长很长描述" />
+      <cc-step title="title4" description="这是一条很长很长很长描述" />
+    </cc-steps>
   </div>
 </template>
 ```

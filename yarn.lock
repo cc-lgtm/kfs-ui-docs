@@ -1506,10 +1506,10 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-kfs-ui@^0.3.8:
-  version "0.3.8"
-  resolved "https://registry.npmmirror.com/kfs-ui/download/kfs-ui-0.3.8.tgz#b025c8e737e5b33ea9588dad9f39dc56d15ca23f"
-  integrity sha512-UyeUqarsQIaT7IeFb7LYOOfoRyMSJU5nTwvAukDD4vpEuDvw07WFXR6V7j/45CtcHgl6gPFlWfdHlcWQcQBmnw==
+kfs-ui@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npmmirror.com/kfs-ui/download/kfs-ui-0.4.0.tgz#6b7b3c165e322173250d20048cfcc87144d4be8d"
+  integrity sha512-lceZPVl9FkwWjBTJc5DdPgwfoveGXKg62g0sNdgBq7a6oPpvhIIGXXd2uvH2htGMM3WcdfVWlku8XuF1+N1g0g==
 
 kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"

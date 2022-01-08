@@ -5,7 +5,7 @@
 ```vue
 <template>
   <div>
-    <cc-switch></cc-switch>
+    <cc-switch size="medium" />
   </div>
 </template>
 ```

@@ -5,9 +5,6 @@ features:
   details: 该项目是自己学习vue3写着玩的，没啥大用。
 footer: MIT | cc-lgtm
 ---
-<div style="margin: 10px auto">
-  <cc-button value="起步" type="success" @click="goto" />
-</div>
 
 > 安装
 ```sh
@@ -19,21 +16,23 @@ yarn add kfs-ui
 ```ts
 import { createApp } from 'vue'
 import App from './App.vue'
-import kfs-ui from 'kfs-ui/lib/index'
-import 'kfs-ui/lib/index.css'
+import KfsUI, { CcButton, CcLink } from 'kfs-ui/lib'
+import 'kfs-ui/lib/style.css'
 
 const app = createApp(App)
 
 app
-.use(kfs-ui)
+.use(KfsUI)
+.use(CcButton)
+.use(CcLink)
 .mount('#app')
 ```
 
 > 方法
 ```ts
-import cc-message from 'kfs-ui/lib/index'
+import Message from 'kfs-ui/lib/message/messageFn'
 
-cc-message({
+Message({
   type: '...',
   text: '...'
 })

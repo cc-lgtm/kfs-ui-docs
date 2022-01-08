@@ -5,13 +5,12 @@
 ```vue
 <template>
   <div>
-    <cc-button value="点我试一试" type="success" @click="openMessage"></cc-button>
+    <cc-button type="success" @click="openMessage">点我试一试</cc-button>
   </div>
 </template>
 
 <script setup lang="ts">
-  const openMessage = () => {
-    $message({
+    Message({
       type: 'error',
       text: '我出来了'
     })

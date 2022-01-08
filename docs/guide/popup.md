@@ -6,9 +6,10 @@
 <template>
   <div>
     <cc-button
-      value="点我一下"
       @click="onClick"
-    />
+    >
+    点我一下
+    </cc-button>
     <cc-popup
       v-if="popupStatus"
       type="confirm"
@@ -35,9 +36,9 @@ const onClick = () => {
   <div>
     <cc-button
       type="success"
-      value="点我一下"
       @click="onClick"
-    />
+    >点我一下
+    </cc-button>
     <cc-popup
       v-if="popupStatus"
       type="upload"
@@ -64,9 +65,9 @@ const onClick = () => {
   <div>
     <cc-button
       type="warn"
-      value="点我一下"
       @click="onClick"
-    />
+    >点我一下
+    </cc-button>
     <cc-popup
       v-if="popupStatus"
       type="message"

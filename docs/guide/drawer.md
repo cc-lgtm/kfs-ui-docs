@@ -6,13 +6,12 @@
 <template>
   <div style="display:flex">
     <cc-button
-      value="左"
       @click="openleft"
-    />
+    >左
+    </cc-button>
     <cc-button
-      value="右"
       @click="openright"
-    />
+    >右</cc-button>
     <cc-drawer
       :vModel="false"
       :position="left"

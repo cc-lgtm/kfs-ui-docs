@@ -5,7 +5,7 @@
 ```vue
 <template>
   <div>
-    <cc-rate />
+    <cc-rating />
   </div>
 </template>
 ```
@@ -16,7 +16,7 @@
 ```vue
 <template>
   <div>
-    <cc-rate disabled value="5" />
+    <cc-rating disabled value="5" />
   </div>
 </template>
 ```
@@ -27,7 +27,7 @@
 ```vue
 <template>
   <div>
-    <cc-rate value="3" showText />
+    <cc-rating value="3" showText />
   </div>
 </template>
 ```
@@ -38,7 +38,7 @@
 ```vue
 <template>
   <div>
-    <cc-rate value="1" showScore />
+    <cc-rating value="1" showScore />
   </div>
 </template>
 ```

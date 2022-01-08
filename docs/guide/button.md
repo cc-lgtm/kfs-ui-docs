@@ -5,10 +5,10 @@
 ```vue
 <template>
   <div style="display: flex">
-    <cc-button></cc-button>
-    <cc-button type="success"></cc-button>
-    <cc-button type="warn"></cc-button>
-    <cc-button type="error"></cc-button>
+    <cc-button>按钮</cc-button>
+    <cc-button type="success">按钮</cc-button>
+    <cc-button type="warn">按钮</cc-button>
+    <cc-button type="error">按钮</cc-button>
   </div>
 </template>
 ```
@@ -20,9 +20,9 @@
 <template>
   <div style="display: flex">
     <cc-button disabled></cc-button>
-    <cc-button type="success" disabled value="success"></cc-button>
-    <cc-button type="warn" disabled value="warn"></cc-button>
-    <cc-button type="error" disabled value="error"></cc-button>
+    <cc-button type="success" disabled>按钮</cc-button>
+    <cc-button type="warn" disabled>按钮</cc-button>
+    <cc-button type="error" disabled>按钮</cc-button>
   </div>
 </template>
 ```
@@ -33,8 +33,8 @@
 ```vue
 <template>
   <div style="display: flex">
-    <cc-button isLoading></cc-button>
-    <cc-button :isLoading="isLoading" @click="onClick"></cc-button>
+    <cc-button isLoading>按钮</cc-button>
+    <cc-button :isLoading="isLoading" @click="onClick">按钮</cc-button>
   </div>
 </template>
 
@@ -59,9 +59,9 @@ export default defineComponent({
 ```vue
 <template>
   <div style="display: flex">
-    <cc-button size="mini" type="success"></cc-button>
-    <cc-button size="small" type="warn"></cc-button>
-    <cc-button size="medium" type="error"></cc-button>
+    <cc-button size="mini">按钮</cc-button>
+    <cc-button size="small">按钮</cc-button>
+    <cc-button size="medium">按钮</cc-button>
   </div>
 </template>
 ```
@@ -72,9 +72,9 @@ export default defineComponent({
 ```vue
 <template>
   <div style="display: flex">
-    <cc-button circle type="success"></cc-button>
-    <cc-button round="10" type="success"></cc-button>
-    <cc-button :round="20" type="success"></cc-button>
+    <cc-button circle>按钮</cc-button>
+    <cc-button round="10">按钮</cc-button>
+    <cc-button :round="20">按钮</cc-button>
   </div>
 </template>
 ```
